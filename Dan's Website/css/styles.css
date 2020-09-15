@@ -1,0 +1,143 @@
+/* fill */
+#title{
+  background-color: #2e1b11;
+  color: #fff;
+}
+.container-fluid{
+  /* padding: 3% 15% 7%; */
+}
+.odam{
+  margin-top: 0;
+}
+.animated-btn{
+border-radius: 22.5px;
+/* display: inline-block; */
+text-align: center;
+background: #E88956;
+position: relative;
+z-index: 2:
+}
+body{
+  font-family: "Lato"
+}
+h1{
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Lato";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+.titleLogo{
+  padding-left: 10%;
+  font-size: 2rem;
+}
+.justTitle{
+  font-size: 3rem;
+}
+/* Title Image */
+.title-image{
+  width: 170%;
+margin-left: -10%;
+z-index: 1;
+}
+
+.moto{
+  text-align: center;
+}
+/* Animated Buttton */
+/* .animated-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    display: inline-block;
+    text-align: center;
+    background: #b3a29a;
+    position: relative;
+} */
+/* .animated-btn{
+  background-color: #ddd;
+border: none;
+color: black;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 16px;
+} */
+.animated-btn::before, .animated-btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 22.5px;
+    background: rgba(232, 137, 86, 0.8);
+    animation: ripple-1 2s infinite ease-in-out;
+    z-index: 0;
+}
+
+.animated-btn::after {
+    background: rgba(232, 137, 86, 0.6);
+    animation: ripple-2 2s infinite ease-in-out;
+    animation-delay: 0.5s;
+    z-index: 0;
+}
+
+@keyframes ripple-1 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes ripple-2 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
