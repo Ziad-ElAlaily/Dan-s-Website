@@ -1,10 +1,13 @@
 /* fill */
 #title{
-  background-color: #2e1b11;
-  color: #fff;
+  background-color: #eae5e1;
+
 }
 .container-fluid{
   /* padding: 3% 15% 7%; */
+}
+.justTitle{
+  color: #000;
 }
 .odam{
   margin-top: 0;
@@ -17,8 +20,12 @@ background: #E88956;
 position: relative;
 z-index: 2:
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: "Lato"
+  color: #000;
 }
 h1{
   font-family: "Lato";
@@ -35,6 +42,10 @@ h2{
 h3{
   font-family: "Lato";
   font-weight: 900;
+  font-size: 1.5rem;
+}
+em{
+  font-family: "Lato";
   font-size: 1.5rem;
 }
 
@@ -60,9 +71,12 @@ h3{
 .titleLogo{
   padding-left: 10%;
   font-size: 2rem;
+  color: #000;
 }
 .justTitle{
-  font-size: 3rem;
+  letter-spacing: 4px;
+  font-size: 4rem;
+  color: #000;
 }
 /* Title Image */
 .title-image{
@@ -140,4 +154,93 @@ border-radius: 16px;
         transform: scale(1.7);
         opacity: 0;
     }
+}
+
+
+
+/* Features Part */
+.icon{
+  text-align: center;
+  color: #b3a29a;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #2e1b11;
+}
+
+.feature-explain{
+  /* text-align:center; */
+  color: #8f8f8f;
+}
+#features{
+  padding: 10% 25%;
+  background-color: #fff;
+  position:relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #eae5e1;
+  color: #000;
+}
+.testimonial-image{
+ width: 15%;
+ border-radius: 10%;
+ margin: 20 px;
+}
+.carousel-item{
+ padding: 13% 15% 7%;
+}
+.testimonial-text{
+  font-size: 2rem;
+}
+#services{
+  background-color: #b4a49c;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 4px;
+  position: absolute;
+  width: 100%;
+}
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* cta */
+
+#cta{
+  background-color: #b3a29a;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+.cta-heading{
+  font-family: "Lato";
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px;;
+}
+/* Extras */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
 }
