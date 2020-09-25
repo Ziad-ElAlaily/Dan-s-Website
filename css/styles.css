@@ -60,6 +60,7 @@ em{
 }
 .nav-item{
   padding: 0 18px;
+  text-align: right;
 }
 .nav-link{
   font-size: 1.2rem;
